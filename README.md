@@ -9,7 +9,7 @@ You can also run it 50 times to get a better average.
 
 The reigons it can ping are EU, NAE, NAW, OCE, ME, ASIA and BRZL
 ### Other
-In other you can choose to enter a custom ip and ping test that.
+In other you can choose to enter a custom ip and ping test that or enter a custom ip and ping it in better average mode.
 
 Make sure you only put in the ip and no other funny business otherwise the script will crash.
 ### Exit
