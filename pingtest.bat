@@ -22,14 +22,17 @@ goto start
 title Ping Tester - Other
 cls
 echo You picked other
-echo Type [1] to input a custom ip and [B] to go back and any other key to exit
+echo Type [1] to input a custom ip, [2] to run a custom ip in better average mode and [B] to go back 
 set a=1
 set b=b
+set c=2
 SET /P rus1=
 IF %rus1%==%a% goto customIp
 if %rus1%==%b% goto start
 set b=B
 if %rus1%==%b% goto start
+IF %rus1%==%c% goto customIp50
+goto other
 goto die
 :customIp
 cls
@@ -47,6 +50,23 @@ set back=B
 IF %ip1%==%back% goto other
 ping %ip1%
 goto customIpP2
+goto die
+:customIp50
+cls
+title Ping Tester - Custom IP
+echo You picked Custom Ip in better average mode
+echo Type [B] to go back
+echo Or anything else that you want to ping
+echo ex. 8.8.8.8 or Google.com
+:customIp50P2
+echo Ip :
+set back=b
+SET /P ip1=
+IF %ip1%==%back% goto other
+set back=B
+IF %ip1%==%back% goto other
+ping %ip1% -n 50
+goto customIp50P2
 goto die
 :fortnite
 cls
