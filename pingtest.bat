@@ -98,7 +98,7 @@ goto die
 title Ping Tester - Fortnite - EU
 cls
 echo You picked Fortnite - EU
-ping qosping-aws-eu-west-3.ol.epicgames.com
+ping ping-eu.ds.on.epicgames.com
 echo Type [R] to repeat, [A] to run better average mode and [B] to go back
 set back=b
 set r=r
@@ -117,7 +117,7 @@ goto die
 :eu50
 cls
 echo Running Better Average Fortinte - EU
-ping qosping-aws-eu-west-3.ol.epicgames.com -n 50
+ping ping-eu.ds.on.epicgames.com -n 50
 echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Fortnite page
 set back=b
 set r=r
@@ -137,7 +137,7 @@ goto die
 title Ping Tester - Fortnite - NAE
 cls
 echo You picked Fortnite - NAE
-ping qosping-aws-us-east-1.ol.epicgames.com
+ping ping-nae.ds.on.epicgames.com
 echo Type [R] to repeat, [A] to run better average mode and [B] to go back
 set back=b
 set r=r
@@ -156,7 +156,7 @@ goto die
 :nae50
 cls
 echo Running Better Average Fortinte - NAE
-ping qosping-aws-us-east-1.ol.epicgames.com -n 50
+ping ping-nae.ds.on.epicgames.com -n 50
 echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Fortnite page
 set back=b
 set r=r
@@ -176,7 +176,7 @@ goto die
 title Ping Tester - Fortnite - NAW
 cls
 echo You picked Fortnite - NAW
-ping qosping-aws-us-west-1.ol.epicgames.com
+ping ping-naw.ds.on.epicgames.com
 echo Type [R] to repeat, [A] to run better average mode and [B] to go back
 set back=b
 set r=r
@@ -195,7 +195,7 @@ goto die
 :naw50
 cls
 echo Running Better Average Fortinte - NAW
-ping qosping-aws-us-west-1.ol.epicgames.com -n 50
+ping ping-naw.ds.on.epicgames.com -n 50
 echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Fortnite page
 set back=b
 set r=r
@@ -215,7 +215,7 @@ goto die
 title Ping Tester - Fortnite - OCE
 cls
 echo You picked Fortnite - OCE
-ping qosping-aws-ap-southeast-2.ol.epicgames.com
+ping ping-oce.ds.on.epicgames.com
 echo Type [R] to repeat, [A] to run better average mode and [B] to go back
 set back=b
 set r=r
@@ -234,7 +234,7 @@ goto die
 :oce50
 cls
 echo Running Better Average Fortinte - OCE
-ping qosping-aws-ap-southeast-2.ol.epicgames.com -n 50
+ping ping-oce.ds.on.epicgames.com -n 50
 echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Fortnite page
 set back=b
 set r=r
@@ -254,7 +254,7 @@ goto die
 title Ping Tester - Fortnite - ME
 cls
 echo You picked Fortnite - ME
-ping qosping-aws-me-south-1.ol.epicgames.com
+ping ping-me.ds.on.epicgames.com
 echo Type [R] to repeat, [A] to run better average mode and [B] to go back
 set back=b
 set r=r
@@ -273,7 +273,7 @@ goto die
 :me50
 cls
 echo Running Better Average Fortinte - ME
-ping qosping-aws-me-south-1.ol.epicgames.com -n 50
+ping ping-me.ds.on.epicgames.com -n 50
 echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Fortnite page
 set back=b
 set r=r
@@ -293,7 +293,7 @@ goto die
 title Ping Tester - Fortnite - ASIA
 cls
 echo You picked Fortnite - ASIA
-ping qosping-aws-ap-northeast-1.ol.epicgames.com
+ping ping-asia.ds.on.epicgames.com
 echo Type [R] to repeat, [A] to run better average mode and [B] to go back
 set back=b
 set r=r
@@ -312,7 +312,7 @@ goto die
 :asia50
 cls
 echo Running Better Average Fortinte - ASIA
-ping qosping-aws-ap-northeast-1.ol.epicgames.com -n 50
+ping ping-asia.ds.on.epicgames.com -n 50
 echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Fortnite page
 set back=b
 set r=r
@@ -332,7 +332,7 @@ goto die
 title Ping Tester - Fortnite - BRZL
 cls
 echo You picked Fortnite - BRZL
-ping qosping-aws-sa-east-1.ol.epicgames.com
+ping ping-br.ds.on.epicgames.com
 echo Type [R] to repeat, [A] to run better average mode and [B] to go back
 set back=b
 set r=r
@@ -351,7 +351,7 @@ goto die
 :brzl50
 cls
 echo Running Better Average Fortinte - BRZL
-ping qosping-aws-sa-east-1.ol.epicgames.com -n 50
+ping ping-br.ds.on.epicgames.com -n 50
 echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Fortnite page
 set back=b
 set r=r
