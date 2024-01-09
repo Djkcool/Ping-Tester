@@ -6,13 +6,17 @@ cls
 echo Djkcools Ping tester :
 echo Type [F] for Fortnite, [P] for Popular, [O] for Others, [E] to exit
 
+REM Assigns each letter in the options menu a variable that corresposnds to that letter
 set f=f
 set p=p
 set o=o
 set e=e
+REM Gets the user to input something and then assigns that to the rus1 variable
 SET /P rus1=
 
+REM Checks the previous letter variables with the user input variable
 IF %rus1%==%f% goto fortnite
+REM Changes the letter variable to uppercase so that the program can check for both upper and lowercase letters
 set f=F
 if %rus1%==%f% goto fortnite
 if %rus1%==%p% goto popular
@@ -88,6 +92,7 @@ IF %ip1%==%back% goto other
 set back=B
 IF %ip1%==%back% goto other
 
+REM Pings the input that the user has entered 50 times as the "-n 50" means ping it 50 times
 ping %ip1% -n 50
 
 goto customIp50P2
@@ -1228,5 +1233,6 @@ IF %r1%==%n% goto spotify
 title Ping Tester - Exit
 cls
 echo See you soon! :)
+REM Waits for user input then kills the script
 pause
 exit
