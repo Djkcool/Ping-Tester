@@ -2,14 +2,12 @@
 A Batch based ping tester for things like Fortnite or any custom IP.
 
 ## Launching
+There is no installation require just download and run!
 
 ### Downloading:
-1. Click on the green ```Code``` button.
-2. Click on the ```Download ZIP``` button.
-
-### Preparing for launch:
-3. Extract the downloaded ZIP file.
-4. Copy ```pingtest.bat``` from within the extracted folder to a preferred location.
+1. Go to the [Latest Release](https://github.com/Djkcool/Ping-Tester/releases/latest).
+2. Click on ```pingtest.bat``` (It should start downloading).
+3. Copy ```pingtest.bat``` from where you downloaded it to a preferred location.
 
 ### Running:
 * Double click on ```pingtest.bat```.
