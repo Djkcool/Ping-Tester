@@ -42,8 +42,7 @@ In other you can choose to enter a custom ip and ping test that or enter a custo
 Make sure you only put in the IP and nothing else otherwise the script will crash.
 
 ## Code of conduct
-Please check out our [Code of  Conduct
-](https://github.com/Djkcool/Pingster/blob/main/CODE_OF_CONDUCT.md) for details on our code of conduct.
+Please check out our [Code of  Conduct](https://github.com/Djkcool/Pingster/blob/main/CODE_OF_CONDUCT.md) for details on our code of conduct.
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
