@@ -16,7 +16,7 @@ There is no installation require just download and run!
 
 ```
 # Runs the script
-pingtest.bat
+pingster.bat
 ```
 
 ## Features
