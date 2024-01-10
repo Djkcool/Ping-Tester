@@ -1,9 +1,9 @@
 @echo off
 :start
-title Ping Tester
+title Pingster
 cls
 
-echo Djkcools Ping tester :
+echo Pingster Menu:
 echo Type [F] for Fortnite, [P] for Popular, [O] for Others, [E] to exit
 
 REM Assigns each letter in the options menu a variable that corresposnds to that letter
@@ -32,7 +32,7 @@ if %rus1%==%e% goto die
 goto start
 
 :other
-title Ping Tester - Other
+title Pingster - Other
 cls
 echo You picked other
 echo Type [1] to input a custom ip, [2] to run a custom ip in better average mode and [B] to go back 
@@ -53,7 +53,7 @@ goto die
 
 :customIp
 cls
-title Ping Tester - Custom IP
+title Pingster - Custom IP
 echo You picked Custom Ip
 echo Type [B] to go back
 echo Or anything else that you want to ping
@@ -76,7 +76,7 @@ goto die
 
 :customIp50
 cls
-title Ping Tester - Custom IP
+title Pingster - Custom IP
 echo You picked Custom Ip in better average mode
 echo Type [B] to go back
 echo Or anything else that you want to ping
@@ -100,7 +100,7 @@ goto die
 
 :fortnite
 cls
-title Ping Tester - Fortnite
+title Pingster - Fortnite
 echo You picked Fortnite
 echo Type [1] for EU, [2] for NAE, [3] for NAC, [4] for NAW, [5] for OCE, [6] for ME, [7] for ASIA, [8] for BRZL and [B] to go back
 
@@ -131,7 +131,7 @@ goto fortnite
 goto die
 
 :eu
-title Ping Tester - Fortnite - EU
+title Pingster - Fortnite - EU
 cls
 echo You picked Fortnite - EU
 ping ping-eu.ds.on.epicgames.com
@@ -178,7 +178,7 @@ IF %r1%==%n% goto eu
 goto die
 
 :nae
-title Ping Tester - Fortnite - NAE
+title Pingster - Fortnite - NAE
 cls
 echo You picked Fortnite - NAE
 ping ping-nae.ds.on.epicgames.com
@@ -225,7 +225,7 @@ IF %r1%==%n% goto nae
 goto die
 
 :nac
-title Ping Tester - Fortnite - NAC
+title Pingster - Fortnite - NAC
 cls
 echo You picked Fortnite - NAC
 ping ping-nac.ds.on.epicgames.com
@@ -272,7 +272,7 @@ IF %r1%==%n% goto nac
 goto die
 
 :naw
-title Ping Tester - Fortnite - NAW
+title Pingster - Fortnite - NAW
 cls
 echo You picked Fortnite - NAW
 ping ping-naw.ds.on.epicgames.com
@@ -319,7 +319,7 @@ IF %r1%==%n% goto naw
 goto die
 
 :oce
-title Ping Tester - Fortnite - OCE
+title Pingster - Fortnite - OCE
 cls
 echo You picked Fortnite - OCE
 ping ping-oce.ds.on.epicgames.com
@@ -366,7 +366,7 @@ IF %r1%==%n% goto oce
 goto die
 
 :me
-title Ping Tester - Fortnite - ME
+title Pingster - Fortnite - ME
 cls
 echo You picked Fortnite - ME
 ping ping-me.ds.on.epicgames.com
@@ -413,7 +413,7 @@ IF %r1%==%n% goto me
 goto die
 
 :asia
-title Ping Tester - Fortnite - ASIA
+title Pingster - Fortnite - ASIA
 cls
 echo You picked Fortnite - ASIA
 ping ping-asia.ds.on.epicgames.com
@@ -460,7 +460,7 @@ IF %r1%==%n% goto asia
 goto die
 
 :brzl
-title Ping Tester - Fortnite - BRZL
+title Pingster - Fortnite - BRZL
 cls
 echo You picked Fortnite - BRZL
 ping ping-br.ds.on.epicgames.com
@@ -508,7 +508,7 @@ goto die
 
 :popular
 cls
-title Ping Tester - Popular
+title Pingster - Popular
 echo You picked Popular
 echo Type [1] for Google, [2] for Cloudflare, [3] for Facebook, [4] for Twitter, [5] for TikTok, [6] for Reddit, [7] for Pinterest, [8] for Discord, [9] for Netflix, [10] for Twitch, [11] for AWS, [12] for Azure, [13] for StackOverFlow, [14] for OpenAI, [15] for Spotify and [B] to go back
 
@@ -555,7 +555,7 @@ goto popular
 goto die
 
 :google
-title Ping Tester - Popular - Google
+title Pingster - Popular - Google
 cls
 echo You picked Popular - Google
 ping 8.8.8.8
@@ -600,7 +600,7 @@ set n=N
 IF %r1%==%n% goto google
 
 :cloudflare
-title Ping Tester - Popular - Cloudflare
+title Pingster - Popular - Cloudflare
 cls
 echo You picked Popular - Cloudflare
 ping 1.1.1.1
@@ -645,7 +645,7 @@ set n=N
 IF %r1%==%n% goto cloudflare
 
 :facebook
-title Ping Tester - Popular - Facebook
+title Pingster - Popular - Facebook
 cls
 echo You picked Popular - Facebook
 ping facebook.com
@@ -690,7 +690,7 @@ set n=N
 IF %r1%==%n% goto facebook
 
 :twitter
-title Ping Tester - Popular - Twitter
+title Pingster - Popular - Twitter
 cls
 echo You picked Popular - Twitter
 ping twitter.com
@@ -735,7 +735,7 @@ set n=N
 IF %r1%==%n% goto twitter
 
 :tiktok
-title Ping Tester - Popular - TikTok
+title Pingster - Popular - TikTok
 cls
 echo You picked Popular - TikTok
 ping tiktok.com
@@ -780,7 +780,7 @@ set n=N
 IF %r1%==%n% goto tiktok
 
 :reddit
-title Ping Tester - Popular - Reddit
+title Pingster - Popular - Reddit
 cls
 echo You picked Popular - Reddit
 ping reddit.com
@@ -825,7 +825,7 @@ set n=N
 IF %r1%==%n% goto reddit
 
 :pinterest
-title Ping Tester - Popular - Pinterest
+title Pingster - Popular - Pinterest
 cls
 echo You picked Popular - Pinterest
 ping pinterest.com
@@ -870,7 +870,7 @@ set n=N
 IF %r1%==%n% goto pinterest
 
 :discord
-title Ping Tester - Popular - Discord
+title Pingster - Popular - Discord
 cls
 echo You picked Popular - Discord
 ping discord.com
@@ -915,7 +915,7 @@ set n=N
 IF %r1%==%n% goto discord
 
 :netflix
-title Ping Tester - Popular - Netflix
+title Pingster - Popular - Netflix
 cls
 echo You picked Popular - Netflix
 ping netflix.com
@@ -960,7 +960,7 @@ set n=N
 IF %r1%==%n% goto netflix
 
 :twitch
-title Ping Tester - Popular - Twitch
+title Pingster - Popular - Twitch
 cls
 echo You picked Popular - Twitch
 ping live.twitch.tv
@@ -1005,7 +1005,7 @@ set n=N
 IF %r1%==%n% goto twitch
 
 :aws
-title Ping Tester - Popular - AWS
+title Pingster - Popular - AWS
 cls
 echo You picked Popular - AWS
 ping aws.amazon.com
@@ -1050,7 +1050,7 @@ set n=N
 IF %r1%==%n% goto aws
 
 :azure
-title Ping Tester - Popular - Azure
+title Pingster - Popular - Azure
 cls
 echo You picked Popular - Azure
 ping azure.microsoft.com
@@ -1095,7 +1095,7 @@ set n=N
 IF %r1%==%n% goto azure
 
 :stackoverflow
-title Ping Tester - Popular - StackOverFlow
+title Pingster - Popular - StackOverFlow
 cls
 echo You picked Popular - StackOverFlow
 ping stackoverflow.com
@@ -1140,7 +1140,7 @@ set n=N
 IF %r1%==%n% goto stackoverflow
 
 :openai
-title Ping Tester - Popular - OpenAI
+title Pingster - Popular - OpenAI
 cls
 echo You picked Popular - OpenAI
 ping api.openai.com
@@ -1185,7 +1185,7 @@ set n=N
 IF %r1%==%n% goto openai
 
 :spotify
-title Ping Tester - Popular - Spotify
+title Pingster - Popular - Spotify
 cls
 echo You picked Popular - Spotify
 ping spotify.com
@@ -1230,7 +1230,7 @@ set n=N
 IF %r1%==%n% goto spotify
 
 :die
-title Ping Tester - Exit
+title Pingster - Exit
 cls
 echo See you soon! :)
 REM Waits for user input then kills the script

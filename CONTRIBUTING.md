@@ -15,7 +15,7 @@ Everybody can contribute to this project, whether it's adding a feature to the s
 # Basic Rules
 ### Expectations:
 
-* Follow the [Code of Conduct](https://github.com/Djkcool/Ping-Tester/blob/main/CODE_OF_CONDUCT.md).
+* Follow the [Code of Conduct](https://github.com/Djkcool/Pingster/blob/main/CODE_OF_CONDUCT.md).
 * Create issues for any major changes and improvements that you wish to make. Discuss things openly and get community feedback.
 * Keep feature versions as small as possible, preferably one new feature per version.
 * Write clean, readable and effecient code.

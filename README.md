@@ -1,11 +1,11 @@
-# Ping Tester
+# Pingster
 A Batch based ping tester for things like Fortnite or any custom IP.
 
 ## Launching
 There is no installation require just download and run!
 
 ### Downloading:
-1. Go to the [Latest Release](https://github.com/Djkcool/Ping-Tester/releases/latest).
+1. Go to the [Latest Release](https://github.com/Djkcool/Pingster/releases/latest).
 2. Click on ```pingtest.bat``` (It should start downloading).
 3. Copy ```pingtest.bat``` from where you downloaded it to a preferred location.
 
@@ -43,21 +43,21 @@ Make sure you only put in the IP and nothing else otherwise the script will cras
 
 ## Code of conduct
 Please check out our [Code of  Conduct
-](https://github.com/Djkcool/Ping-Tester/blob/main/CODE_OF_CONDUCT.md) for details on our code of conduct.
+](https://github.com/Djkcool/Pingster/blob/main/CODE_OF_CONDUCT.md) for details on our code of conduct.
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
 ## Contributing
-Please check out [CONTRIBUTING.md](https://github.com/Djkcool/Ping-Tester/blob/main/CONTRIBUTING.md) for details on how to contribute to this project, **before submitting a pull request or creating an issue**.
+Please check out [CONTRIBUTING.md](https://github.com/Djkcool/Pingster/blob/main/CONTRIBUTING.md) for details on how to contribute to this project, **before submitting a pull request or creating an issue**.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, check out the [tags on this repository](https://github.com/Djkcool/Ping-Tester/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, check out the [releases on this repository](https://github.com/Djkcool/Pingster/releases).
 
 ## License
-This script uses the [MIT License](https://choosealicense.com/licenses/mit/) - Check out the [LICENSE](https://github.com/Djkcool/Ping-Tester/blob/main/LICENSE) file for details.
+This script uses the [MIT License](https://choosealicense.com/licenses/mit/) - Check out the [LICENSE](https://github.com/Djkcool/Pingster/blob/main/LICENSE) file for details.
 
 ## Authors
 * [**Djkcool**](https://github.com/Djkcool) - *Initial work*
 
-Also check out the list of [contributors](https://github.com/Djkcool/Ping-Tester/contributors) who participated in this project.
+Also check out the list of [contributors](https://github.com/Djkcool/Pingster/contributors) who participated in this project.
