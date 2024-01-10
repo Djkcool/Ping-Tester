@@ -6,11 +6,11 @@ There is no installation require just download and run!
 
 ### Downloading:
 1. Go to the [Latest Release](https://github.com/Djkcool/Pingster/releases/latest).
-2. Click on ```pingtest.bat``` (It should start downloading).
-3. Copy ```pingtest.bat``` from where you downloaded it to a preferred location.
+2. Click on ```pingster.bat``` (It should start downloading).
+3. Copy ```pingster.bat``` from where you downloaded it to a preferred location.
 
 ### Running:
-* Double click on ```pingtest.bat```.
+* Double click on ```pingster.bat```.
 
 * Use CMD:
 
