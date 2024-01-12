@@ -4,10 +4,10 @@ title Pingster
 cls
 
 echo Pingster Menu:
-echo Type [F] for Fortnite, [P] for Popular, [O] for Others, [E] to exit
+echo Type [G] for Games, [P] for Popular, [O] for Others, [E] to exit
 
 REM Assigns each letter in the options menu a variable that corresposnds to that letter
-set f=f
+set g=g
 set p=p
 set o=o
 set e=e
@@ -15,10 +15,10 @@ REM Gets the user to input something and then assigns that to the rus1 variable
 SET /P rus1=
 
 REM Checks the previous letter variables with the user input variable
-IF %rus1%==%f% goto fortnite
+IF %rus1%==%g% goto games
 REM Changes the letter variable to uppercase so that the program can check for both upper and lowercase letters
-set f=F
-if %rus1%==%f% goto fortnite
+set g=G
+if %rus1%==%g% goto games
 if %rus1%==%p% goto popular
 set p=P
 if %rus1%==%p% goto popular
@@ -96,6 +96,23 @@ REM Pings the input that the user has entered 50 times as the "-n 50" means ping
 ping %ip1% -n 50
 
 goto customIp50P2
+goto die
+
+:games
+title Pingster - Games
+echo You picked Games
+echo Type [1] for Fortnite and [B] to go back
+
+set fortnite=1
+set back=b
+SET /P r1=
+
+IF %r1%==%back% goto start
+set back=B
+IF %r1%==%back% goto start
+IF %r1%==%fortnite% goto fortnite
+
+goto games
 goto die
 
 :fortnite
