@@ -4,7 +4,7 @@ title Pingster
 cls
 
 echo Pingster Menu:
-echo Type [G] for Games, [P] for Popular, [O] for Others, [E] to exit
+echo Type [G] for Games, [P] for Platforms, [O] for Others, [E] to exit
 
 REM Assigns each letter in the options menu a variable that corresposnds to that letter
 set g=g
@@ -19,9 +19,9 @@ IF %rus1%==%g% goto games
 REM Changes the letter variable to uppercase so that the program can check for both upper and lowercase letters
 set g=G
 if %rus1%==%g% goto games
-if %rus1%==%p% goto popular
+if %rus1%==%p% goto platforms
 set p=P
-if %rus1%==%p% goto popular
+if %rus1%==%p% goto platforms
 if %rus1%==%o% goto other
 set o=O
 if %rus1%==%o% goto other
@@ -523,10 +523,10 @@ IF %r1%==%n% goto brzl
 
 goto die
 
-:popular
+:platforms
 cls
-title Pingster - Popular
-echo You picked Popular
+title Pingster - Platforms
+echo You picked Platforms
 echo Type [1] for Google, [2] for Cloudflare, [3] for Facebook, [4] for Twitter, [5] for TikTok, [6] for Reddit, [7] for Pinterest, [8] for Discord, [9] for Netflix, [10] for Twitch, [11] for AWS, [12] for Azure, [13] for StackOverFlow, [14] for OpenAI, [15] for Spotify and [B] to go back
 
 set google=1
@@ -568,13 +568,13 @@ IF %r1%==%stackoverflow% goto stackoverflow
 IF %r1%==%openai% goto openai
 IF %r1%==%spotify% goto spotify
 
-goto popular
+goto platforms
 goto die
 
 :google
-title Pingster - Popular - Google
+title Pingster - Platforms - Google
 cls
-echo You picked Popular - Google
+echo You picked Platforms - Google
 ping 8.8.8.8
 echo Type [R] to repeat, [A] to run better average mode and [B] to go back
 
@@ -583,9 +583,9 @@ set r=r
 set a=a
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto google
 set r=R
 IF %r1%==%r% goto google
@@ -597,18 +597,18 @@ goto die
 
 :google50
 cls
-echo Running Better Average Popular - Google
+echo Running Better Average Platforms - Google
 ping 8.8.8.8 -n 50
-echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Popular page
+echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Platforms page
 
 set back=b
 set r=r
 set n=n
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto google50
 set r=R
 IF %r1%==%r% goto google50
@@ -617,9 +617,9 @@ set n=N
 IF %r1%==%n% goto google
 
 :cloudflare
-title Pingster - Popular - Cloudflare
+title Pingster - Platforms - Cloudflare
 cls
-echo You picked Popular - Cloudflare
+echo You picked Platforms - Cloudflare
 ping 1.1.1.1
 echo Type [R] to repeat, [A] to run better average mode and [B] to go back
 
@@ -628,9 +628,9 @@ set r=r
 set a=a
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto cloudflare
 set r=R
 IF %r1%==%r% goto cloudflare
@@ -642,18 +642,18 @@ goto die
 
 :cloudflare50
 cls
-echo Running Better Average Popular - Cloudflare
+echo Running Better Average Platforms - Cloudflare
 ping 1.1.1.1 -n 50
-echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Popular page
+echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Platforms page
 
 set back=b
 set r=r
 set n=n
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto cloudflare50
 set r=R
 IF %r1%==%r% goto cloudflare50
@@ -662,9 +662,9 @@ set n=N
 IF %r1%==%n% goto cloudflare
 
 :facebook
-title Pingster - Popular - Facebook
+title Pingster - Platforms - Facebook
 cls
-echo You picked Popular - Facebook
+echo You picked Platforms - Facebook
 ping facebook.com
 echo Type [R] to repeat, [A] to run better average mode and [B] to go back
 
@@ -673,9 +673,9 @@ set r=r
 set a=a
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto facebook
 set r=R
 IF %r1%==%r% goto facebook
@@ -687,18 +687,18 @@ goto die
 
 :facebook50
 cls
-echo Running Better Average Popular - Facebook
+echo Running Better Average Platforms - Facebook
 ping facebook.com -n 50
-echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Popular page
+echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Platforms page
 
 set back=b
 set r=r
 set n=n
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto facebook50
 set r=R
 IF %r1%==%r% goto facebook50
@@ -707,9 +707,9 @@ set n=N
 IF %r1%==%n% goto facebook
 
 :twitter
-title Pingster - Popular - Twitter
+title Pingster - Platforms - Twitter
 cls
-echo You picked Popular - Twitter
+echo You picked Platforms - Twitter
 ping twitter.com
 echo Type [R] to repeat, [A] to run better average mode and [B] to go back
 
@@ -718,9 +718,9 @@ set r=r
 set a=a
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto twitter
 set r=R
 IF %r1%==%r% goto twitter
@@ -732,18 +732,18 @@ goto die
 
 :twitter50
 cls
-echo Running Better Average Popular - Twitter
+echo Running Better Average Platforms - Twitter
 ping twitter.com-n 50
-echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Popular page
+echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Platforms page
 
 set back=b
 set r=r
 set n=n
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto twitter50
 set r=R
 IF %r1%==%r% goto twitter50
@@ -752,9 +752,9 @@ set n=N
 IF %r1%==%n% goto twitter
 
 :tiktok
-title Pingster - Popular - TikTok
+title Pingster - Platforms - TikTok
 cls
-echo You picked Popular - TikTok
+echo You picked Platforms - TikTok
 ping tiktok.com
 echo Type [R] to repeat, [A] to run better average mode and [B] to go back
 
@@ -763,9 +763,9 @@ set r=r
 set a=a
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto tiktok
 set r=R
 IF %r1%==%r% goto tiktok
@@ -777,18 +777,18 @@ goto die
 
 :tiktok50
 cls
-echo Running Better Average Popular - TikTok
+echo Running Better Average Platforms - TikTok
 ping tiktok.com -n 50
-echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Popular page
+echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Platforms page
 
 set back=b
 set r=r
 set n=n
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto tiktok50
 set r=R
 IF %r1%==%r% goto tiktok50
@@ -797,9 +797,9 @@ set n=N
 IF %r1%==%n% goto tiktok
 
 :reddit
-title Pingster - Popular - Reddit
+title Pingster - Platforms - Reddit
 cls
-echo You picked Popular - Reddit
+echo You picked Platforms - Reddit
 ping reddit.com
 echo Type [R] to repeat, [A] to run better average mode and [B] to go back
 
@@ -808,9 +808,9 @@ set r=r
 set a=a
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto reddit
 set r=R
 IF %r1%==%r% goto reddit
@@ -822,18 +822,18 @@ goto die
 
 :reddit50
 cls
-echo Running Better Average Popular - Reddit
+echo Running Better Average Platforms - Reddit
 ping reddit.com -n 50
-echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Popular page
+echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Platforms page
 
 set back=b
 set r=r
 set n=n
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto reddit50
 set r=R
 IF %r1%==%r% goto reddit50
@@ -842,9 +842,9 @@ set n=N
 IF %r1%==%n% goto reddit
 
 :pinterest
-title Pingster - Popular - Pinterest
+title Pingster - Platforms - Pinterest
 cls
-echo You picked Popular - Pinterest
+echo You picked Platforms - Pinterest
 ping pinterest.com
 echo Type [R] to repeat, [A] to run better average mode and [B] to go back
 
@@ -853,9 +853,9 @@ set r=r
 set a=a
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto pinterest
 set r=R
 IF %r1%==%r% goto pinterest
@@ -867,18 +867,18 @@ goto die
 
 :pinterest50
 cls
-echo Running Better Average Popular - Pinterest
+echo Running Better Average Platforms - Pinterest
 ping pinterest.com -n 50
-echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Popular page
+echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Platforms page
 
 set back=b
 set r=r
 set n=n
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto pinterest50
 set r=R
 IF %r1%==%r% goto pinterest50
@@ -887,9 +887,9 @@ set n=N
 IF %r1%==%n% goto pinterest
 
 :discord
-title Pingster - Popular - Discord
+title Pingster - Platforms - Discord
 cls
-echo You picked Popular - Discord
+echo You picked Platforms - Discord
 ping discord.com
 echo Type [R] to repeat, [A] to run better average mode and [B] to go back
 
@@ -898,9 +898,9 @@ set r=r
 set a=a
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto discord
 set r=R
 IF %r1%==%r% goto discord
@@ -912,18 +912,18 @@ goto die
 
 :discord50
 cls
-echo Running Better Average Popular - Discord
+echo Running Better Average Platforms - Discord
 ping discord.com -n 50
-echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Popular page
+echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Platforms page
 
 set back=b
 set r=r
 set n=n
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto discord50
 set r=R
 IF %r1%==%r% goto discord50
@@ -932,9 +932,9 @@ set n=N
 IF %r1%==%n% goto discord
 
 :netflix
-title Pingster - Popular - Netflix
+title Pingster - Platforms - Netflix
 cls
-echo You picked Popular - Netflix
+echo You picked Platforms - Netflix
 ping netflix.com
 echo Type [R] to repeat, [A] to run better average mode and [B] to go back
 
@@ -943,9 +943,9 @@ set r=r
 set a=a
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto netflix
 set r=R
 IF %r1%==%r% goto netflix
@@ -957,18 +957,18 @@ goto die
 
 :netflix50
 cls
-echo Running Better Average Popular - Netflix
+echo Running Better Average Platforms - Netflix
 ping netflix.com -n 50
-echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Popular page
+echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Platforms page
 
 set back=b
 set r=r
 set n=n
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto netflix50
 set r=R
 IF %r1%==%r% goto netflix50
@@ -977,9 +977,9 @@ set n=N
 IF %r1%==%n% goto netflix
 
 :twitch
-title Pingster - Popular - Twitch
+title Pingster - Platforms - Twitch
 cls
-echo You picked Popular - Twitch
+echo You picked Platforms - Twitch
 ping live.twitch.tv
 echo Type [R] to repeat, [A] to run better average mode and [B] to go back
 
@@ -988,9 +988,9 @@ set r=r
 set a=a
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto twitch
 set r=R
 IF %r1%==%r% goto twitch
@@ -1002,18 +1002,18 @@ goto die
 
 :twitch50
 cls
-echo Running Better Average Popular - Twitch
+echo Running Better Average Platforms - Twitch
 ping live.twitch.tv -n 50
-echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Popular page
+echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Platforms page
 
 set back=b
 set r=r
 set n=n
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto twitch50
 set r=R
 IF %r1%==%r% goto twitch50
@@ -1022,9 +1022,9 @@ set n=N
 IF %r1%==%n% goto twitch
 
 :aws
-title Pingster - Popular - AWS
+title Pingster - Platforms - AWS
 cls
-echo You picked Popular - AWS
+echo You picked Platforms - AWS
 ping aws.amazon.com
 echo Type [R] to repeat, [A] to run better average mode and [B] to go back
 
@@ -1033,9 +1033,9 @@ set r=r
 set a=a
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto aws
 set r=R
 IF %r1%==%r% goto aws
@@ -1047,18 +1047,18 @@ goto die
 
 :aws50
 cls
-echo Running Better Average Popular - AWS
+echo Running Better Average Platforms - AWS
 ping aws.amazon.com -n 50
-echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Popular page
+echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Platforms page
 
 set back=b
 set r=r
 set n=n
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto aws50
 set r=R
 IF %r1%==%r% goto aws50
@@ -1067,9 +1067,9 @@ set n=N
 IF %r1%==%n% goto aws
 
 :azure
-title Pingster - Popular - Azure
+title Pingster - Platforms - Azure
 cls
-echo You picked Popular - Azure
+echo You picked Platforms - Azure
 ping azure.microsoft.com
 echo Type [R] to repeat, [A] to run better average mode and [B] to go back
 
@@ -1078,9 +1078,9 @@ set r=r
 set a=a
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto azure
 set r=R
 IF %r1%==%r% goto azure
@@ -1092,18 +1092,18 @@ goto die
 
 :azure50
 cls
-echo Running Better Average Popular - Azure
+echo Running Better Average Platforms - Azure
 ping azure.microsoft.com -n 50
-echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Popular page
+echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Platforms page
 
 set back=b
 set r=r
 set n=n
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto azure50
 set r=R
 IF %r1%==%r% goto azure50
@@ -1112,9 +1112,9 @@ set n=N
 IF %r1%==%n% goto azure
 
 :stackoverflow
-title Pingster - Popular - StackOverFlow
+title Pingster - Platforms - StackOverFlow
 cls
-echo You picked Popular - StackOverFlow
+echo You picked Platforms - StackOverFlow
 ping stackoverflow.com
 echo Type [R] to repeat, [A] to run better average mode and [B] to go back
 
@@ -1123,9 +1123,9 @@ set r=r
 set a=a
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto stackoverflow
 set r=R
 IF %r1%==%r% goto stackoverflow
@@ -1137,18 +1137,18 @@ goto die
 
 :stackoverflow50
 cls
-echo Running Better Average Popular - StackOverFlow
+echo Running Better Average Platforms - StackOverFlow
 ping stackoverflow.com -n 50
-echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Popular page
+echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Platforms page
 
 set back=b
 set r=r
 set n=n
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto stackoverflow50
 set r=R
 IF %r1%==%r% goto stackoverflow50
@@ -1157,9 +1157,9 @@ set n=N
 IF %r1%==%n% goto stackoverflow
 
 :openai
-title Pingster - Popular - OpenAI
+title Pingster - Platforms - OpenAI
 cls
-echo You picked Popular - OpenAI
+echo You picked Platforms - OpenAI
 ping api.openai.com
 echo Type [R] to repeat, [A] to run better average mode and [B] to go back
 
@@ -1168,9 +1168,9 @@ set r=r
 set a=a
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto openai
 set r=R
 IF %r1%==%r% goto openai
@@ -1182,18 +1182,18 @@ goto die
 
 :openai50
 cls
-echo Running Better Average Popular - OpenAI
+echo Running Better Average Platforms - OpenAI
 ping api.openai.com -n 50
-echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Popular page
+echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Platforms page
 
 set back=b
 set r=r
 set n=n
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto openai50
 set r=R
 IF %r1%==%r% goto openai50
@@ -1202,9 +1202,9 @@ set n=N
 IF %r1%==%n% goto openai
 
 :spotify
-title Pingster - Popular - Spotify
+title Pingster - Platforms - Spotify
 cls
-echo You picked Popular - Spotify
+echo You picked Platforms - Spotify
 ping spotify.com
 echo Type [R] to repeat, [A] to run better average mode and [B] to go back
 
@@ -1213,9 +1213,9 @@ set r=r
 set a=a
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto spotify
 set r=R
 IF %r1%==%r% goto spotify
@@ -1227,18 +1227,18 @@ goto die
 
 :spotify50
 cls
-echo Running Better Average Popular - Spotify
+echo Running Better Average Platforms - Spotify
 ping spotify.com -n 50
-echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Popular page
+echo Type [R] to repeat, [N] to go back to normal mode and [B] to go back to the Platforms page
 
 set back=b
 set r=r
 set n=n
 SET /P r1=
 
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 set b=B
-IF %r1%==%back% goto popular
+IF %r1%==%back% goto platforms
 IF %r1%==%r% goto spotify50
 set r=R
 IF %r1%==%r% goto spotify50
