@@ -31,8 +31,8 @@ In the Fortnite page you can choose a server region to ping test it.
 
 The reigons it can ping are EU, NAE, NAC, NAW, OCE, ME, ASIA and BRZL
 
-#### Popular:
-In the popular page you can choose a popular website or service to ping test it.
+#### Platforms:
+In the platforms page you can choose a popular website or service to ping test it.
 
 Currently the servers in the popular page are: Google, Cloudflare, Facebook, Twitter, TikTok, Reddit, Pinterest, Discord, Netflix, Twitch, AWS (Amazon Web Services), Azure, StackOverFlow, OpenAI and Spotify.
 
