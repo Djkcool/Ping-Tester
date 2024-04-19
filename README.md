@@ -2,7 +2,7 @@
 A Batch based ping tester for things like Fortnite or any custom IP.
 
 ## Launching
-There is no installation require just download and run!
+There is no installation required just download and run!
 
 ### Downloading:
 1. Go to the [Latest Release](https://github.com/Djkcool/Pingster/releases/latest).
