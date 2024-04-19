@@ -44,7 +44,7 @@ Make sure you only put in the IP and nothing else otherwise the script will cras
 ## Code of conduct
 Please check out our [Code of  Conduct](https://github.com/Djkcool/Pingster/blob/main/CODE_OF_CONDUCT.md) for details on our code of conduct.
 
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://github.com/Djkcool/Pingster/blob/main/CODE_OF_CONDUCT.md)
 
 ## Contributing
 Please check out [CONTRIBUTING.md](https://github.com/Djkcool/Pingster/blob/main/CONTRIBUTING.md) for details on how to contribute to this project, **before submitting a pull request or creating an issue**.
